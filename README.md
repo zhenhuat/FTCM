@@ -69,11 +69,11 @@ The pre-trained models and codes for STCFormer are currently undergoing updates.
 
 If you find this repo useful, please consider citing our papers:
 
-@article{tang2023ftcm,
-  title={FTCM: Frequency-Temporal Collaborative Module for Efficient 3D Human Pose Estimation in Video},
-  author={Tang, Zhenhua and Hao, Yanbin and Li, Jia and Hong, Richang},
-  journal={IEEE Transactions on Circuits and Systems for Video Technology},
-  year={2023},
+@article{tang2023ftcm,\
+  title={FTCM: Frequency-Temporal Collaborative Module for Efficient 3D Human Pose Estimation in Video},\
+  author={Tang, Zhenhua and Hao, Yanbin and Li, Jia and Hong, Richang},\
+  journal={IEEE Transactions on Circuits and Systems for Video Technology},\
+  year={2023},\
   publisher={IEEE}
 }
 
