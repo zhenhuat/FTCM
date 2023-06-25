@@ -10,7 +10,7 @@ Thank you for your interest, the code and checkpoints are being updated.
     dataset/:                           the folder for data loader.
     common/:                            the folder for basic functions.
     model/:                             the folder for FTCM network.
-    run_ftcm.py:                         the python code for FTCM networks training.
+    run_ftcm.py:                        the python code for FTCM networks training.
 
 
 ## Dependencies
