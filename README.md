@@ -33,11 +33,11 @@ We set up the MPI-INF-3DHP dataset in the same way as [P-STMO](https://github.co
 ### Human 3.6M
 For the training stage, please run:
 ```bash
-python run_stc.py -f 243 -b 512  --train 1 --layers 6 
+python run_ftcm.py -f 243 -b 512  --train 1 --layers 6 
 ```
 For the testing stage, please run:
 ```bash
-python run_stc.py -f 243 -b 512  --train 0 --layers 6 --reload 1 --previous_dir ./checkpoint/your_best_model.pth
+python run_ftcm.py -f 243 -b 512  --train 0 --layers 6 --reload 1 --previous_dir ./checkpoint/your_best_model.pth
 ```
 
 
@@ -50,7 +50,7 @@ You can download our pre-trained models from [Google Drive](https://drive.google
 To evaluate our FTCM model with refine module on the 2D keypoints obtained by CPN, please run:
 
 ```bash
-python run_myftcm_exp.py --train 0 --reload 1 -tds 3 --f 243 --previous_dir ./checkpoint/model_243_refine/no_refine_6_4331.pth --refine --refine_reload 1 --previous_refine_name ./checkpoint/model_351_refine/refine_6_4331.pth
+python run_ftcm.py --train 0 --reload 1 -tds 3 --f 243 --previous_dir ./checkpoint/model_243_refine/no_refine_6_4331.pth --refine --refine_reload 1 --previous_refine_name ./checkpoint/model_351_refine/refine_6_4331.pth
 ```
 
 Different models use different configurations as follows.
